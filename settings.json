@@ -1,0 +1,79 @@
+{
+    "workbench.activityBar.location": "hidden",
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": false,
+    //
+    "editor.copyWithSyntaxHighlighting": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.emptySelectionClipboard": false,
+    "workbench.editor.enablePreview": false,
+    "window.newWindowDimensions": "inherit",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.renderSideBySide": false,
+    "editor.snippetSuggestions": "top",
+    "editor.detectIndentation": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "editor.guides.indentation": false,
+    //
+    "breadcrumbs.enabled": false,
+    "scm.diffDecorations": "none",
+    "editor.hover.delay": 500,
+    "editor.hover.enabled": true,
+    "editor.matchBrackets": "never",
+    "workbench.tips.enabled": false,
+    "git.decorations.enabled": false,
+    "workbench.startupEditor": "none",
+    "editor.lightbulb.enabled": "off",
+    "editor.selectionHighlight": false,
+    "editor.overviewRulerBorder": false,
+    "editor.occurrencesHighlight": "off",
+    "problems.decorations.enabled": false,
+    "editor.renderControlCharacters": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "window.menuBarVisibility": "toggle",
+    "vscode_custom_css.imports": [
+        "file:///path/to/css/file.css",
+        "file:///path/to/js/file.js"
+    ],
+    //
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    "svgPreview.autoOpen": false,
+    "explorer.compactFolders": false,
+    //
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.addMissingImports": "explicit"
+    },
+    //
+    "window.title": "${rootName}",
+    "workbench.iconTheme": "symbols",
+    "workbench.colorTheme": "Min Dark",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.fontLigatures": true,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.renderLineHighlight": "gutter",
+    "editor.mouseWheelScrollSensitivity": 2,
+    "workbench.tree.indent": 14,
+    "workbench.editor.labelFormat": "short",
+    "editor.bracketPairColorization.enabled": false,
+    "terminal.integrated.fontWeightBold": "normal",
+    "workbench.tree.enableStickyScroll": false,
+    "editor.stickyScroll.enabled": false
+}
