@@ -6,8 +6,6 @@
     "editor.copyWithSyntaxHighlighting": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.emptySelectionClipboard": false,
-    "workbench.editor.enablePreview": false,
-    "window.newWindowDimensions": "inherit",
     "editor.multiCursorModifier": "ctrlCmd",
     "files.trimTrailingWhitespace": true,
     "diffEditor.renderSideBySide": false,
@@ -18,13 +16,11 @@
     "editor.guides.indentation": false,
     //
     "breadcrumbs.enabled": false,
-    "scm.diffDecorations": "none",
+    "scm.diffDecorations": "gutter",
     "editor.hover.delay": 500,
     "editor.hover.enabled": true,
     "editor.matchBrackets": "never",
-    "workbench.tips.enabled": false,
-    "git.decorations.enabled": false,
-    "workbench.startupEditor": "none",
+    "git.decorations.enabled": true,
     "editor.lightbulb.enabled": "off",
     "editor.selectionHighlight": false,
     "editor.overviewRulerBorder": false,
@@ -75,5 +71,8 @@
     "editor.bracketPairColorization.enabled": false,
     "terminal.integrated.fontWeightBold": "normal",
     "workbench.tree.enableStickyScroll": false,
-    "editor.stickyScroll.enabled": false
+    "editor.stickyScroll.enabled": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.tips.enabled": false,
+    "workbench.startupEditor": "none"
 }
