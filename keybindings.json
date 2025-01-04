@@ -1,51 +1,56 @@
 // Place your key bindings in this file to override the defaults
 [
   {
-      "key": "ctrl+q",
-      "command": "workbench.action.openView"
+    "key": "ctrl+q",
+    "command": "workbench.action.openView"
   },
   {
-      "key": "ctrl+]",
-      "command": "workbench.action.terminal.focusPreviousPane",
-      "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    "key": "ctrl+]",
+    "command": "workbench.action.terminal.focusPreviousPane",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
   },
   {
-      "key": "ctrl+[",
-      "command": "workbench.action.terminal.focusNextPane",
-      "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    "key": "ctrl+[",
+    "command": "workbench.action.terminal.focusNextPane",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
   },
   {
-      "key": "ctrl+'",
-      "command": "workbench.action.terminal.toggleTerminal"
+    "key": "ctrl+'",
+    "command": "workbench.action.terminal.toggleTerminal"
   },
   {
-      "key": "ctrl+e",
-      "command": "workbench.view.explorer",
-      "when": "viewContainer.workbench.view.explorer.enabled"
+    "key": "ctrl+e",
+    "command": "workbench.view.explorer",
+    "when": "viewContainer.workbench.view.explorer.enabled"
   },
   {
-      "key": "r",
-      "command": "renameFile",
-      "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    "key": "r",
+    "command": "renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
   },
   {
-      "key": "n",
-      "command": "explorer.newFile",
-      "when": "filesExplorerFocus && !inputFocus"
+    "key": "n",
+    "command": "explorer.newFile",
+    "when": "filesExplorerFocus && !inputFocus"
   },
   {
-      "key": "shift+n",
-      "command": "explorer.newFolder",
-      "when": "filesExplorerFocus && !inputFocus"
+    "key": "shift+n",
+    "command": "explorer.newFolder",
+    "when": "filesExplorerFocus && !inputFocus"
   },
   {
-      "key": "d",
-      "command": "deleteFile",
-      "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    "key": "d",
+    "command": "deleteFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
   },
   {
-      "key": "s",
-      "command": "filesExplorer.openFilePreserveFocus",
-      "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    "key": "s",
+    "command": "filesExplorer.openFilePreserveFocus",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "-github.copilot.generate",
+    "when": "editorTextFocus && github.copilot.activated && !commentEditorFocused && !inInteractiveInput && !interactiveEditorFocused"
   }
 ]

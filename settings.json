@@ -1,6 +1,5 @@
 {
   "workbench.activityBar.location": "hidden",
-  "workbench.statusBar.visible": false,
   "editor.minimap.enabled": false,
   //
   "editor.copyWithSyntaxHighlighting": false,
@@ -34,14 +33,12 @@
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "editor.gotoLocation.multipleImplementations": "goto",
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
-  "window.menuBarVisibility": "toggle",
   "vscode_custom_css.imports": [
     "file:///home/hiagodevmode/.vscode/custom/style.css",
     "file:///home/hiagodevmode/.vscode/custom/script.js"
   ],
   //
   "files.autoSave": "afterDelay",
-  "editor.formatOnSave": true,
   "svgPreview.autoOpen": false,
   "explorer.compactFolders": false,
   //
@@ -50,11 +47,9 @@
   },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
-    "source.addMissingImports": "explicit"
   },
   //
   "window.title": "🔥 ${rootName}",
-  "workbench.iconTheme": "symbols",
   "workbench.colorTheme": "Min Dark",
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 14,
@@ -66,7 +61,7 @@
   ],
   "editor.renderLineHighlight": "gutter",
   "editor.mouseWheelScrollSensitivity": 2,
-  "workbench.tree.indent": 14,
+  "workbench.tree.indent": 18,
   "workbench.editor.labelFormat": "short",
   "editor.bracketPairColorization.enabled": false,
   "terminal.integrated.fontWeightBold": "normal",
@@ -80,4 +75,21 @@
   "window.titleBarStyle": "custom",
   "security.workspace.trust.untrustedFiles": "open",
   "workbench.editor.showTabs": "multiple",
+  "workbench.statusBar.visible": false,
+  //
+  "workbench.iconTheme": "symbols",
+  "symbols.files.associations": {
+    "*.module.ts": "nest-module",
+    "*.pipe.ts": "nest-pipe",
+    "*.guard.ts": "nest-guard",
+    "*.filter.ts": "nest-filter",
+    "*.gateway.ts": "nest-gateway",
+    "*.service.ts": "nest-service",
+    "*.resolver.ts": "nest-resolver",
+    "*.decorator.ts": "nest-decorator",
+    "*.controller.ts": "nest-controller",
+    "*.middleware.ts": "nest-middleware",
+    "*.interceptor.ts": "nest-interceptor",
+  },
+  "chat.commandCenter.enabled": false,
 }

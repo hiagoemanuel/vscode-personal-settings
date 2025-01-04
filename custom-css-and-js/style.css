@@ -1,21 +1,3 @@
-/* Status bar transparent - need to be disable on settings.json */
-.split-view-view:has(footer) {
-  display: block !important;
-  height: 22px !important;
-  top: auto !important;
-  bottom: 0px !important;
-}
-.split-view-view:last-child footer {
-  height: 100% !important;
-  background-color: transparent !important;
-}
-.last-visible-item {
-  margin-right: 16px !important;
-}
-.pane-body .monaco-list>.monaco-scrollable-element {
-  height: calc(100% - 22px) !important;
-}
-
 /* List item label name */
 .monaco-list.list_id_1 .monaco-list-row.selected .label-name {
   opacity: 1 !important;
@@ -37,6 +19,10 @@
 }
 
 /* Sidebar title */
+
+.composite.title {
+height: 45px !important;
+}
 
 .composite.title h2 {
 display: none
@@ -136,6 +122,27 @@ display: none
   border-radius: 10px 10px 0 0;
 }
 
+.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.active::before,
+.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.active::after {
+content: "";
+position: absolute;
+bottom: 0px;
+width: 12.5px;
+height: 12.5px;
+z-index: 10;
+background-color: var(--vscode-tab-activeBackground);
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.active::before {
+left: -12.5px;
+background-image: radial-gradient(circle at left top, var(--vscode-tab-unfocusedInactiveBackground) 12.5px, transparent 0);
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.active::after {
+right: -12.5px;
+background-image: radial-gradient(circle at right top, var(--vscode-tab-unfocusedInactiveBackground) 12.5px, transparent 0);
+}
+
 .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container {
  height: 45px;
 }
@@ -147,6 +154,16 @@ display: none
 .monaco-editor-pane-placeholder {
 height: 100% !important;
 margin: 150px 0;
+}
+
+/* fix terminal relative to tab */
+
+div#workbench\.parts\.panel {
+transform: translateY(-10px);
+}
+
+.sash-container .monaco-sash.horizontal {
+transform: translateY(-10px);
 }
 
 /* Command Palette */
@@ -194,6 +211,7 @@ margin: 150px 0;
   background: rgba(0, 0, 0, .15);
   top: 0;
   left: 0;
+  z-index: 50;
   backdrop-filter: blur(8px);
 }
 
