@@ -1,0 +1,52 @@
+.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.active {
+  border-radius: 10px 10px 0 0;
+}
+
+.title.tabs.show-file-icons {
+  background-color: var(--vscode-tab-inactiveBackground) !important;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container.active > .title .tabs-container > .tab.sizing-fit:not(.selected):hover {
+  background-color: var(--vscode-tab-inactiveBackground) !important;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.active::before,
+.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  width: 12.5px;
+  height: 12.5px;
+  z-index: 10;
+  background-color: var(--vscode-tab-activeBackground);
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.active::before {
+  left: -12.5px;
+  background-image: radial-gradient(circle at left top, var(--vscode-tab-unfocusedInactiveBackground) 12.5px, transparent 0);
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.active::after {
+  right: -12.5px;
+  background-image: radial-gradient(circle at right top, var(--vscode-tab-unfocusedInactiveBackground) 12.5px, transparent 0);
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container {
+  height: 45px;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab {
+  height: 45px;
+  border: 0 !important;
+}
+
+.tab.active .tab-border-top-container {
+  height: 20px !important;
+  background-color: transparent !important;
+  border-top: 2px solid var(--tab-border-top-color);
+  border-radius: 10px;
+}
+
+.scroll-decoration {
+  display: none;
+}

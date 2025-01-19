@@ -1,0 +1,47 @@
+.titlebar-left {
+  justify-content: flex-start !important;
+  flex-grow: 0 !important;
+  width: auto !important;
+}
+
+.search-label {
+  font-family: 'JetBrains Mono' !important;
+  font-size: 14px !important;
+  display: block;
+  color: #ffffff; /* IT DEPENDS ON YOUR THEME */
+}
+
+.search-icon {
+  display: none !important;
+}
+
+.codicon-search::before {
+  display: none !important;
+}
+
+.codicon-arrow-right, .codicon-arrow-left {
+  display: none !important;
+}
+
+.titlebar-right > * {
+  display: none !important;
+}
+
+.monaco-editor-pane-placeholder {
+  height: 100% !important;
+  margin: 150px 0;
+}
+
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center {
+  width: auto;
+  border: none !important;
+  background: transparent !important;
+}
+
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center {
+  margin: 0;
+}
+
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-left {
+  display: none;
+}

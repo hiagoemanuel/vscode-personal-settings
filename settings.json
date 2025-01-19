@@ -8,14 +8,12 @@
   "editor.multiCursorModifier": "ctrlCmd",
   "files.trimTrailingWhitespace": true,
   "diffEditor.renderSideBySide": false,
-  "editor.snippetSuggestions": "inline",
   "editor.detectIndentation": false,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "editor.guides.indentation": true,
   //
   "breadcrumbs.enabled": false,
-  "scm.diffDecorations": "gutter",
   "editor.hover.delay": 500,
   "editor.hover.enabled": true,
   "editor.matchBrackets": "never",
@@ -34,7 +32,11 @@
   "editor.gotoLocation.multipleImplementations": "goto",
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
   "vscode_custom_css.imports": [
-    "file:///home/hiagodevmode/.vscode/custom/style.css",
+    "file:///home/hiagodevmode/.vscode/custom/style/command-pallete.css",
+    "file:///home/hiagodevmode/.vscode/custom/style/sidebar.css",
+    "file:///home/hiagodevmode/.vscode/custom/style/tabs.css",
+    "file:///home/hiagodevmode/.vscode/custom/style/title.css",
+    "file:///home/hiagodevmode/.vscode/custom/style/workbench.css",
     "file:///home/hiagodevmode/.vscode/custom/script.js"
   ],
   //
@@ -79,7 +81,7 @@
   //
   "workbench.iconTheme": "symbols",
   "symbols.files.associations": {
-    "*.module.ts": "nest-module",
+    "*.module.ts": "nest",
     "*.pipe.ts": "nest-pipe",
     "*.guard.ts": "nest-guard",
     "*.filter.ts": "nest-filter",
@@ -89,7 +91,10 @@
     "*.decorator.ts": "nest-decorator",
     "*.controller.ts": "nest-controller",
     "*.middleware.ts": "nest-middleware",
-    "*.interceptor.ts": "nest-interceptor",
+    "*.interceptor.ts": "nest-interceptor"
   },
   "chat.commandCenter.enabled": false,
+  "window.customTitleBarVisibility": "auto",
+  "editor.wordWrap": "on",
+  "workbench.preferredDarkColorTheme": "Min Dark"
 }

@@ -1,0 +1,32 @@
+.composite.title {
+  height: 45px !important;
+}
+
+.composite.title h2 {
+  display: none
+}
+
+.explorer-folders-view .monaco-list .monaco-scrollable-element .scrollbar.vertical .slider {
+  display: none;
+}
+
+.codicon-toolbar-more, .codicon-word-wrap {
+  display: block !important;
+}
+
+.monaco-tree .monaco-tree-row .label-name,
+.monaco-list .monaco-list-row
+.monaco-icon-label .label-name {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    filter: brightness(200%) /* IT DEPENDS ON YOUR THEME */
+}
+
+.monaco-list.list_id_1 .monaco-list-row.selected .label-name {
+  opacity: 1 !important;
+}
+
+.monaco-workbench .part.sidebar .title-actions .actions-container {
+  display: none;
+}
