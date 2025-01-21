@@ -51,7 +51,7 @@ Você precisará instalar a extensão **Custom CSS and JS Loader**.
 
 4. Após salvar as alterações, reinicie o VS Code.
 5. Pressione F1 ou Ctrl+Shift+P, procure por Enable Custom CSS and JS, e ative as customizações.
-6.Reinicie o VS Code novamente para aplicar as mudanças.
+6. Reinicie o VS Code novamente para aplicar as mudanças.
 
 > Qualquer dúvida sobre a extensão pode ser esclarecida no [***README oficial***](https://github.com/be5invis/vscode-custom-css/blob/master/README.md).
 
