@@ -30,3 +30,17 @@
 .monaco-workbench .part.sidebar .title-actions .actions-container {
   display: none;
 }
+
+.composite.viewlet.explorer-viewlet {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.monaco-list-row.focused.selected,
+.monaco-list-row.focused {
+  border-radius: 6px;
+}
+
+.monaco-list-row:hover {
+  border-radius: 6px;
+}

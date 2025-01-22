@@ -36,8 +36,7 @@
     "file:///home/hiagodevmode/.vscode/custom/style/sidebar.css",
     "file:///home/hiagodevmode/.vscode/custom/style/tabs.css",
     "file:///home/hiagodevmode/.vscode/custom/style/title.css",
-    "file:///home/hiagodevmode/.vscode/custom/style/workbench.css",
-    "file:///home/hiagodevmode/.vscode/custom/script.js"
+    "file:///home/hiagodevmode/.vscode/custom/style/workbench.css"
   ],
   //
   "files.autoSave": "afterDelay",
@@ -52,10 +51,9 @@
   },
   //
   "window.title": "🔥 ${rootName}",
-  "workbench.colorTheme": "Min Dark",
   "editor.fontFamily": "JetBrains Mono",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 1.8,
+  "editor.fontSize": 14.6,
+  "editor.lineHeight": 1.86,
   "editor.fontLigatures": true,
   "editor.rulers": [
     80,
@@ -96,5 +94,7 @@
   "chat.commandCenter.enabled": false,
   "window.customTitleBarVisibility": "auto",
   "editor.wordWrap": "on",
-  "workbench.preferredDarkColorTheme": "Min Dark"
+  "workbench.preferredDarkColorTheme": "Min Dark",
+  "workbench.colorTheme": "Min Dark",
+  "window.menuBarVisibility": "compact"
 }

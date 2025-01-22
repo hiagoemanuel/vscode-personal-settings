@@ -6,25 +6,9 @@
   border-radius: 20px !important;
 }
 
-.composite.viewlet.explorer-viewlet {
-padding-left: 5px;
-padding-right: 5px;
-}
-
 .monaco-list-rows {
   background: transparent !important;
 }
-
-.monaco-list-row.focused.selected,
-.monaco-list-row.focused {
-border-radius: 5px;
-}
-
-.monaco-list-row:hover {
-  background: rgba(0, 0, 0, .2) !important;
-  border-radius: 5px;
-}
-
 .notifications-toasts .monaco-list-row:hover {
   background: none !important;
 }
@@ -43,7 +27,7 @@ border-radius: 5px;
   margin-bottom: 16px !important;
 }
 
-#command-blur {
+#------command-blur {
   position: absolute;
   width: 100%;
   height: 100%;
