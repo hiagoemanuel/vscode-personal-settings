@@ -2,6 +2,10 @@
   border-radius: 10px 10px 0 0;
 }
 
+.tab.tab.active:first-child {
+  border-radius: 0 10px 0 0;
+}
+
 .tabs-border-bottom:after {
   display: none;
 }
@@ -11,6 +15,10 @@
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container.active > .title .tabs-container > .tab.sizing-fit:not(.selected):hover {
+  background-color: var(--vscode-tab-inactiveBackground) !important;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab:not(.selected):hover {
   background-color: var(--vscode-tab-inactiveBackground) !important;
 }
 
@@ -49,6 +57,10 @@
   background-color: transparent !important;
   border-top: 2px solid var(--tab-border-top-color);
   border-radius: 10px;
+}
+
+.tab.active:first-child .tab-border-top-container {
+  border-radius: 0 10px 0 0;
 }
 
 .scroll-decoration {
