@@ -1,9 +1,14 @@
-.sidebar .composite.title {
-  height: 45px !important;
-}
-
 .composite.title h2 {
   display: none
+}
+
+.composite.viewlet.explorer-viewlet {
+  height: calc(100% - 10px) !important;
+  margin-top: 10px;
+}
+
+.monaco-workbench .monaco-list:not(.element-focused):focus:before {
+  display: none;
 }
 
 .explorer-folders-view .monaco-list .monaco-scrollable-element .scrollbar.vertical .slider {
