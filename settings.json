@@ -11,7 +11,6 @@
   "editor.detectIndentation": false,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
-  "editor.guides.indentation": true,
   //
   "breadcrumbs.enabled": false,
   "editor.hover.delay": 500,
@@ -28,7 +27,6 @@
   "editor.gotoLocation.multipleReferences": "goto",
   "editor.gotoLocation.multipleDefinitions": "goto",
   "editor.gotoLocation.multipleDeclarations": "goto",
-  "workbench.editor.enablePreviewFromQuickOpen": false,
   "editor.gotoLocation.multipleImplementations": "goto",
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
   "vscode_custom_css.imports": [
@@ -52,8 +50,8 @@
   //
   "window.title": "🔥 ${rootName}",
   "editor.fontFamily": "JetBrains Mono",
-  "editor.fontSize": 14.6,
-  "editor.lineHeight": 1.86,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.8,
   "editor.fontLigatures": true,
   "editor.rulers": [
     80,
@@ -91,10 +89,13 @@
     "*.middleware.ts": "nest-middleware",
     "*.interceptor.ts": "nest-interceptor"
   },
+  "window.menuBarVisibility": "toggle",
   "chat.commandCenter.enabled": false,
-  "window.customTitleBarVisibility": "auto",
-  "editor.wordWrap": "on",
-  "workbench.preferredDarkColorTheme": "Min Dark",
+  "github.copilot.enable": {
+    "*": false
+  },
+  "editor.wordWrap": "off",
   "workbench.colorTheme": "Min Dark",
-  "window.menuBarVisibility": "compact"
+  "window.customTitleBarVisibility": "auto",
+  "workbench.editor.pinnedTabSizing": "compact",
 }
