@@ -59,6 +59,8 @@ Você precisará instalar a extensão **Custom CSS and JS Loader**.
 
 Caso não esteja usando o tema '[*Min Theme*](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.min-theme) Dark' pode-se haver conflitos entre as cores, mas isso pode ser resolvido manualmente apenas modificando ou removendo as cores do seu arquivo css.
 
+Recomendo também que instale a fonte [*JetBrains Mono*](https://www.jetbrains.com/lp/mono/) ou altere para a fonte de sua preferência.
+
 ---
 
 Inspiração: [***Glenn Raya***](https://www.youtube.com/watch?v=9_I0bySQoCs)
